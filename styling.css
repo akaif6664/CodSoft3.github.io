@@ -1,0 +1,63 @@
+body{
+    background: url(images/bg_image.jpg) center center fixed no-repeat;
+    text-align: center;
+    background-size: cover;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#calci{
+    height: 700px;
+    width: 700px;
+    border: 1px solid black;
+    background-color: #3d3d3d;
+    margin-top: 50px;
+}
+
+
+table { 
+			border: 1px solid black; 
+			margin-left: auto; 
+			margin-right: auto; 
+		} 
+
+		input[type="button"] { 
+			width: 100%; 
+			padding: 20px 20px; 
+			background-color: grey; 
+			color: blue; 
+			font-size: 24px; 
+			font-weight: bold; 
+			border: none; 
+			border-radius: 5px; 
+		} 
+
+		input[type="text"] { 
+			padding: 20px 20px; 
+			font-size: 24px; 
+			font-weight: bold; 
+			border: none; 
+			border-radius: 5px; 
+			border: 2px solid black; 
+		}
+
+.footer{
+    color: #5b5b5b;
+    padding-left: 200px;
+    margin-top: 21px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+@media screen and (max-width: 768px){
+    #calci{
+        height: 300px;
+        width: 300px;
+        
+    }
+    .footer{
+        color: #5b5b5b;
+        padding-left: 40px;
+        margin-top: 25px;
+    }
+}
